@@ -1,13 +1,6 @@
 # Scavenger Hunt — Smart Contracts
 
-Cairo smart contracts powering the on-chain game logic for the StarkNet scavenger hunt. This includes puzzle management, player progress, NFT rewards, challenge management, referral rewards, zero-knowledge proof verification, and real-time event emission.
-
-## Tech Stack
-
-- **Language:** Cairo
-- **Blockchain:** StarkNet
-- **Package Manager:** Scarb
-- **Testing Framework:** Starknet Foundry (`snforge`)
+Smart contracts powering the on-chain game logic for the scavenger hunt. This includes puzzle management, player progress, NFT rewards, challenge management, referral rewards, zero-knowledge proof verification, and real-time event emission.
 
 ## Contracts
 
@@ -20,7 +13,7 @@ Cairo smart contracts powering the on-chain game logic for the StarkNet scavenge
 | `game_management` | Top-level game state, seasons, and configuration |
 | `nft_rewards` | NFT reward distribution logic for completed challenges |
 | `player_progress` | Tracks per-player puzzle completions and scores |
-| `puzzle_event_emitter` | Emits StarkNet events for puzzle and challenge actions |
+| `puzzle_event_emitter` | Emits events for puzzle and challenge actions |
 | `referral_rewarder` | Manages referral codes and distributes referral rewards |
 | `social_metadata` | Stores social/profile metadata linked to players |
 | `zk_verifier` | Verifies zero-knowledge proofs for solution submissions |
@@ -30,7 +23,6 @@ Cairo smart contracts powering the on-chain game logic for the StarkNet scavenge
 ### Prerequisites
 
 - [Scarb](https://docs.swmansion.com/scarb/) (Cairo package manager)
-- [Starknet Foundry](https://foundry-rs.github.io/starknet-foundry/) (`snforge` / `sncast`)
 
 ### Build
 
